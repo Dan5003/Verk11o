@@ -2,13 +2,14 @@
   "name": "vef1-2024-v9",
   "version": "1.0.0",
   "scripts": {
-    "dev": "browser-sync start --server --files ./src/ styles.css index.html",
+    "dev": "vite",
     "copy:html": "cpy ./*.html ./build/",
     "copy:css": "cpy ./*.css ./build/",
     "copy:js": "cpy ./src ./build/src",
-    "build": "concurrently npm:copy:*",
+    "build": "vite build",
     "lint": "eslint ./src",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +19,10 @@
     "browser-sync": "^3.0.3",
     "concurrently": "^9.0.1",
     "cpy-cli": "^5.0.0",
+    "cypress": "^13.15.2",
     "eslint": "^9.12.0",
     "globals": "^15.11.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "vite": "^5.4.11"
   }
 }

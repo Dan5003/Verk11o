@@ -1,12 +1,9 @@
-
 ## I'll be using these frameworks:
 
 - Build Framework: Vite [https://vite.dev]
 - Test Framework: Cypress [https://www.cypress.io]
 - Web Framework: React [https://react.dev]
 - CSS Framework: TailwindCSS [https://tailwindcss.com]
-
-
 
 # Vefforritun 1, 2024: Verkefni 9, JS #3
 
