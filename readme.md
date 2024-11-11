@@ -1,3 +1,13 @@
+
+## I'll be using these frameworks:
+
+- Build Framework: Vite [https://vite.dev]
+- Test Framework: Cypress [https://www.cypress.io]
+- Web Framework: React [https://react.dev]
+- CSS Framework: TailwindCSS [https://tailwindcss.com]
+
+
+
 # Vefforritun 1, 2024: Verkefni 9, JS #3
 
 - [Fyrirlestur 10.3: Inngangur að verkefni 9 (43:39)](https://youtu.be/TjY6TTenRq8)
